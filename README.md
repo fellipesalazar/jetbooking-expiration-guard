@@ -44,7 +44,7 @@ O plugin não depende de nenhum hook específico do JetBooking nem de triggers d
 
 ## Instalação
 
-1. Baixe este repositório (ou clone) e compacte a pasta em `.zip`.
+1. Baixe este repositório como `.zip` ou pela página de [Releases](https://github.com/fellipesalazar/jetbooking-expiration-guard/releases).
 2. No WordPress: **Plugins → Adicionar novo → Enviar plugin**, selecione o `.zip` e ative.
 3. Vá em **Configurações → Expiration Guard**.
 
