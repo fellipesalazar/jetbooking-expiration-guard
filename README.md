@@ -1,5 +1,9 @@
 # JetBooking Expiration Guard
 
+[![Pix](https://img.shields.io/badge/Pix-Apoie-32BCAD?style=flat&logo=pix&logoColor=white)](#-apoie-o-projeto)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Apoie-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/fellipesalazar)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Apoie-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/fellipesalazar)
+
 Plugin para WordPress que cancela automaticamente reservas do **JetBooking** que ficam pendentes além de um tempo configurável — liberando a data para novas reservas — sem o bug de race condition que pode cancelar reservas **já pagas**.
 
 Funciona com ou sem WooCommerce. Se houver um pedido WooCommerce vinculado à reserva, o plugin faz uma checagem extra de segurança antes de cancelar.
@@ -65,6 +69,14 @@ A seção **"Status do cron"** mostra o horário da última execução e quantas
 Este plugin escreve diretamente na tabela de reservas do JetBooking. Teste em um ambiente de staging antes de usar em produção, e confirme que os valores de status configurados correspondem exatamente aos usados no seu banco (a comparação é case-sensitive).
 
 Desenvolvido para uma configuração específica de JetBooking + WooCommerce; nomes de tabela ou colunas podem variar entre versões do plugin — confira o schema da sua própria tabela antes de usar.
+
+## ☕ Apoie o projeto
+
+Se esse plugin te ajudou, considere apoiar:
+
+- **Pix:** `12a73dd8-65c9-4e43-a7f7-a7004d0a9d9c` (copie e cole no app do seu banco)
+- **Ko-fi:** [https://ko-fi.com/fellipesalazar](https://ko-fi.com/fellipesalazar)
+- **Buy Me a Coffee:** [buymeacoffee.com/fellipesalazar](https://www.buymeacoffee.com/fellipesalazar)
 
 ## Licença
 
