@@ -38,7 +38,7 @@ O plugin não depende de nenhum hook específico do JetBooking nem de triggers d
 
 ## Requisitos
 
-- WordPress com o plugin **JetBooking** (Crocoblock) ativo, no modo integrado ao WooCommerce.
+- WordPress com o plugin **JetBooking** (Crocoblock) ativo.
 - A tabela `{prefix}jet_apartment_bookings` precisa existir e ter as colunas `booking_id`, `status` e `order_id` (padrão do JetBooking).
 - WooCommerce é opcional — a checagem extra de segurança só é usada se ele estiver ativo e a reserva tiver um `order_id` vinculado.
 
